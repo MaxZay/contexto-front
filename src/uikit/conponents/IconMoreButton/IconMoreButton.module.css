@@ -1,0 +1,14 @@
+.moreButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.moreButton:hover {
+    background-color: #1e2732;
+}

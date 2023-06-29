@@ -1,0 +1,12 @@
+.lobbyModalWrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lobbyButtons {
+    display: flex;
+    gap: 30px;
+}

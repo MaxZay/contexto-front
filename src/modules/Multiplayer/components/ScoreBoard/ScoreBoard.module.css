@@ -1,0 +1,32 @@
+.scoreBoard {
+    width: 300px;
+    min-height: 500px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    background-color: #273340;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.playersList {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.playerCard {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}

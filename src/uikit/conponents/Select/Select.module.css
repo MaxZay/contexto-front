@@ -1,0 +1,17 @@
+.select {
+    background-color: #273340;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.select:hover {
+    background-color: #38495b
+}

@@ -1,0 +1,19 @@
+.listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+.loaderWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMessage {
+    padding: 0 5px;
+    text-align: center;
+}

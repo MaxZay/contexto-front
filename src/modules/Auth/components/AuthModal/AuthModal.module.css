@@ -1,0 +1,25 @@
+.formWrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logInButton {
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #273340;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.logInButton:hover {
+    background-color: #476081;
+}

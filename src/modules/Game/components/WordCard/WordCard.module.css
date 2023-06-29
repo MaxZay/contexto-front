@@ -1,0 +1,45 @@
+.wordCard {
+    width: 100%;
+    height: 44px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    z-index: 2;
+    background-color: #1E2732;
+}
+
+.border {
+    border: 3px solid #ffffff;
+}
+
+span {
+    position: static;
+    z-index: 2;
+}
+
+.cardColor {
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 38px;
+    border-radius: 5px;
+    z-index: 1;
+    transition: 1s ease;
+}
+
+.red {
+    background-color: #F91880;
+}
+
+.green {
+    background-color: #00BA7C;
+}
+
+.orange {
+    background-color: #EF7D31;
+}

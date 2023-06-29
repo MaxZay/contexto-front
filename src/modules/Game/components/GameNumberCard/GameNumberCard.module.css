@@ -1,0 +1,22 @@
+.gameCardWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1D9BF0;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: 0.5s;
+    flex-shrink: 0;
+}
+
+.gameCardWrapper:hover {
+    background-color: #2b648d;
+}
+
+.gameCardNumber {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+}

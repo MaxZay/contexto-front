@@ -1,0 +1,22 @@
+.wordInput {
+    background-color: #273340;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1.25em;
+    margin: 10px 0;
+    padding: 10px 15px;
+    width: 100%;
+    font-weight: 700;
+    height: 53px;
+}
+
+.wordInput::placeholder {
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.wordInput:focus-visible {
+    outline: none;
+}

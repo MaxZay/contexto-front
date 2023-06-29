@@ -1,0 +1,22 @@
+.gameInfo {
+    padding: 10px 10px 0;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.label {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.gameInfoItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gameInfoText {
+    font-size: 18px;
+    font-family: inherit;
+}

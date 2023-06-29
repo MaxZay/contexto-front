@@ -1,0 +1,30 @@
+.menuButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.menuButton:hover {
+    background-color: #1e2732;
+}
+
+.menu {
+    background-color: #273340;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menuItem {
+    background-color: #273340;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.menuItemHover {
+    background-color: #1E2732;
+    border-radius: 5px;
+    height: 40px;
+}
